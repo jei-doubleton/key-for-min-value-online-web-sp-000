@@ -9,7 +9,7 @@ def key_for_min_value(name_hash)
 
   if numbers = []
     nil
-  else 
+  else
     name_hash.collect do |item, quantity|
       numbers.each do |number|
       if quantity <= number
