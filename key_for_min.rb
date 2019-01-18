@@ -16,7 +16,7 @@ def key_for_min_value(name_hash)
         quantity <= number
       end
       if lowest == true
-        return quantity
+        return item
       end
     end
   end
