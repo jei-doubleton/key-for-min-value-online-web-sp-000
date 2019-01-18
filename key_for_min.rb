@@ -13,7 +13,7 @@ def key_for_min_value(name_hash)
   else
     name_hash.collect do |item, quantity|
       numbers.all? do |number|
-        if quantity <= number
+        if quantity < number
           return item
         end
       end
