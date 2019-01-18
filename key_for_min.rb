@@ -8,7 +8,7 @@ def key_for_min_value(name_hash)
     quantity
   end
 
-  if numbers = []
+  if numbers == []
     nil
   else
     numbers.all? do |number|
