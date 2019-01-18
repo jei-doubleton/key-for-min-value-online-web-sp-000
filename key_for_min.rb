@@ -13,7 +13,6 @@ def key_for_min_value(name_hash)
   else
     numbers.all? do |number|
       name_hash.collect do |item, quantity|
-        binding.pry
         if quantity <= number
           item
         end
