@@ -3,10 +3,19 @@
 
 def key_for_min_value(name_hash)
 #collect an array of the numbers each item
-  numbers = name_hash.collect do |item, number|
-    number
+  numbers = name_hash.collect do |item, quantity|
+    quantity
   end
 
-  if numbers[0]
-
+  if numbers = []
+    nil
+  else 
+    name_hash.collect do |item, quantity|
+      numbers.each do |number|
+      if quantity <= number
+        item
+      end
+      end
+    end
+  end
 end
