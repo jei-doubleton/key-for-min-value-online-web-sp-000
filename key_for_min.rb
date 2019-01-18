@@ -12,9 +12,10 @@ def key_for_min_value(name_hash)
     nil
   else
     name_hash.collect do |item, quantity|
-      if numbers.all? do |number|
+      test = numbers.all? do |number|
         quantity < number
       end
+      if test == true
       return item
       end
     end
