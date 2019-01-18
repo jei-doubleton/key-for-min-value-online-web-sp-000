@@ -6,14 +6,7 @@ def key_for_min_value(name_hash)
   numbers = name_hash.collect do |item, number|
     number
   end
-#find out if each value is less than all numbers in array
-  name_hash.collect do |item, number|
-    i = 0
-    while i < numbers.length
-      if number < numbers[i]
-        item
-      end
-      i += 1
-    end
-  end
+
+  if numbers[0]
+
 end
