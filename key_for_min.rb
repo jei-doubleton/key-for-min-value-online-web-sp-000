@@ -14,7 +14,7 @@ def key_for_min_value(name_hash)
     numbers.all? do |number|
       name_hash.collect do |item, quantity|
         if quantity <= number
-          item
+          return item
         end
       end
     end
