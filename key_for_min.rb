@@ -11,7 +11,7 @@ def key_for_min_value(name_hash)
     i = 0
     while i < numbers.length
       if number < numbers[i]
-        key
+        item
       end
       i += 1
     end
